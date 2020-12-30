@@ -1,0 +1,145 @@
+.title {
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.text-info {
+    text-align: center;
+    color: black !important;
+    padding: 40px;
+    margin: 0 10vw;
+}
+
+h1 {
+  color: #d8f2de;
+}
+// .olvi{
+//     height: 40vh;
+//     align-items: center;
+//     position: fixed;
+//     margin-bottom: 0;
+// }
+
+
+//  .download_cv{
+//      background-color: white;
+//     text-align: center;
+//     border: 1.5px solid;
+//     padding: 10px 25px;
+    
+//     border: 2px solid #1a1a1a;
+// }
+// .download_cv:hover {
+//     background-color: white;
+//     text-align: center;
+//     border: 1.5px solid;
+//     padding: 10px 25px;
+//     transition: transform .175s;
+
+//     a{
+//         text-decoration: none;
+//          color: black !important;
+//     }
+// }
+.download_cv{
+  margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    border: 2px solid ;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+     a{
+         text-decoration: none;
+         color: black !important;
+     }
+    &::before {
+      position: absolute;
+      content: '';
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: inherit;
+      box-shadow: 0 0 0 2px black, 0 0.625em 0 0 #00000036;
+      transform: translate3d(0, 0.75em, -1em);
+      transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+    }
+    &:hover {
+      background: #d8f2de;
+      transform: translate(0, 0.25em);
+      &::before {
+        box-shadow: 0 0 0 2px black, 0 0.5em 0 0 #00000036;
+        transform: translate3d(0, 0.5em, -1em);
+      }
+    }
+    &:active {
+      background: #d8f2de;
+      transform: translate(0em, 0.75em);
+      &::before {
+        box-shadow: 0 0 0 2px black, 0 0 #00000036;
+        transform: translate3d(0, 0, -1em);
+      }
+    }
+  
+}
+
+
+.education {
+  margin-top: 50px;
+   
+  .row{
+  justify-content: space-around;
+  }
+  .ironhack {
+    width: 130px;
+  }
+
+
+
+  // h2, p {
+  //   color: #eebece !important;
+  // }
+  .download_cv {
+    margin-bottom: 1px;
+  }
+}
+
+.contact {
+  margin-top: 50px;
+  
+  a {
+    font-family: 'Bungee Outline' !important;
+   color: black !important;
+   font-size: 1.7em !important;
+  }
+  a:hover {
+    color: #d8f2de !important;
+    
+  }
+}
+
+@media (max-width: 800px) {
+  
+
+            h1{
+                font-size: 3.5em;
+                margin-top: 5vh;
+            }
+            h2{
+              font-size: 2em;
+            }
+      
+    
+      }
+    
