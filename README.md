@@ -1,6 +1,6 @@
 # Portfolio
 
-It was made with using GatsbyJS.
+It was made using GatsbyJS.
 
 
 ## Getting Started
