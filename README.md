@@ -1,11 +1,11 @@
 # Portfolio
 
-A portfolio made with GatsbyJS.
+It was made with using GatsbyJS.
+
 
 ## Getting Started
 
-You visit it  [here](https://anabermudez.netlify.app/)
-
+You can visit it [here](https://anabermudez.netlify.app/)
 
 
 ## Built With
@@ -14,6 +14,7 @@ You visit it  [here](https://anabermudez.netlify.app/)
  - CSS3 & Bootstrap
  - JavaScript, GatsbyJS
  - ES6
+
 
 ## Author
 
