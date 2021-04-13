@@ -10,13 +10,24 @@ export default function Projects() {
 
             <Container >
                 <Row className="grid-container">
-                    <Col className="col-card" xs={10} >
+                     <Col className="col-card villaverde" xs={10} >
+                        <Link to="https://www.transportesvillaverde.es">
+                            <h2>Transportes Villaverde</h2>
+                        </Link>
+                      
+                            <h5>Trucking company website, first real project </h5>
+                            <p>Made with Wordpress</p>
+                        
+                       
+                       
+                        </Col>
+                    {/* <Col className="col-card" xs={10} >
                         <h2>Transportes Villaverde</h2>
                         <h5>Trucking company website, first real project </h5>
-                        <p>Work in progress</p>
+                        <p>Made with Wordpress</p>
                         
         
-                    </Col>
+                    </Col> */}
                     <Col className="col-card citricco" xs={10} >
 
                         <div className="info-citricco">

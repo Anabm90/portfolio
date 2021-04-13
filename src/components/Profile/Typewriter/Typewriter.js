@@ -18,7 +18,7 @@ const typeEffect = (word) =>
 		of('').pipe(delay(200), ignoreElements()) // pause
 	);
 
-const titles = [ 'Full Stack Web Developer', 'Front-end Developer', 'Cat lover' ];
+const titles = [ 'Front-end Developer', 'Graphic Designer', 'Cat lover' ];
 
 export default function Typewriter() {
 	const value = useObservable(() => from(titles).pipe(concatMap(typeEffect), repeat()));
