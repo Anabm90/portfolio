@@ -21,6 +21,28 @@ export default function Education() {
                         </div>
                     </Col>
 
+                   
+                    
+
+                    {/* <Col className="col-card-education" xs={10}>
+                
+                        <h2>Graphic Design & UX/UI</h2>
+                        
+                        <p>Currently studying</p>
+                        
+                    </Col>
+                    */}
+                     <Col className="col-card-education" xs={10} >
+                         <div>
+                           
+                                <h2>Graphic Design & UX/UI</h2>
+                                <h3>Aula Creactiva </h3>
+                                <p> Illustrator | InDesign| Photoshop | Sketch | Adobe XD | Design Thinking| User Interface Design </p>
+                            
+                            <Link to="/">View credential</Link>
+                        </div>
+                    </Col>
+
                     <Col className="col-card-education" xs={10} >
                         <h2>Complementary knowledge</h2>
                         
@@ -41,17 +63,6 @@ export default function Education() {
                             
                        </ul>
                     </Col>
-                    
-
-                    <Col className="col-card-education" xs={10}>
-                
-                        <h2>Graphic Design & UX/UI</h2>
-                        
-                        <p>Currently studying</p>
-                        
-                    </Col>
-                   
-                   
                 </Row>
             
             
